@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body {
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    color: rgb(228, 231, 231);
+    background-image: url(allImages/homepage.jpg);
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+}
+.divv {
+    text-align: center;
+    display:inline;      
+}
+.navigation li{
+    display: inline;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.568);
+}
+a:link {
+    color: rgb(63, 129, 216);
+    text-decoration: double;
+}
+a:visited {
+    color: rgba(40, 233, 217, 0.849);
+    text-decoration: dotted;
+}
+a:hover {
+    background-color:rgb(255, 0, 0);
+}
+a:focus{
+    background-color: rgb(211, 133, 50);
+}
+a:active{
+    background-color: #DCE8FE;
+}
+section{
+    font-size: larger;
+}
+p {
+    line-height: 35px;
+}
+.letter-spacing {
+    letter-spacing: 3px;
+    word-spacing: 4px;
+}

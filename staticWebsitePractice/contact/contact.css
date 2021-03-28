@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(228, 231, 231);
+    background-image: url(../allImages/1441858-black-wallpaper-texture-1920x1200-for-hd-1080p.jpg);
+    background-repeat:repeat-x;
+    background-attachment:fixed;
+}
+a:link {
+    color: rgb(63, 129, 216);
+    text-decoration: double;
+}
+a:visited {
+    color: rgba(40, 233, 217, 0.849);
+    text-decoration: dotted;
+}
+a:hover {
+    background-color:rgb(255, 0, 0);
+}
+a:focus{
+    background-color: rgb(211, 133, 50);
+}
+a:active{
+    background-color: #DCE8FE;
+}
+header{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.divv {
+    font-family:'PT Sans', sans-serif;
+    text-align: center;
+    display:inline;      
+}
+.navigation li{
+    font-family:'PT Sans', sans-serif;
+    display: inline;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.568);
+}
+section{
+    font-size: larger;
+}
